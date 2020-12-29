@@ -1,0 +1,16 @@
+<!--pages/layout/layout.wxml-->
+<view class="wrapper">
+	<view class="header">
+		
+	</view>
+	<view class="content">
+		<view class="text">
+			<text id="test" class="item">北京天安门</text>
+			<text id="test" class="item">北京天安门</text>
+		</view>
+		<view class="text">手机号：123422</view>
+	</view>
+
+
+</view>
+<view class="arrow">我的<text class="item">+-</text></view>

@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="wrapper">
+	<view
+		class="item"
+		wx:for="{{list}}"
+		wx:key="index"
+		data-path="{{item.path}}"
+		bind:tap="jump"
+	>{{item.name}}</view>
+</view>

@@ -1,0 +1,17 @@
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 80rpx;
+}
+.item{
+	width: 300rpx;
+	height: 80rpx;
+	border-radius: 12rpx;
+	line-height: 80rpx;
+	text-align: center;
+	color: white;
+	font-size: 34rpx;
+	background: green;
+	margin-bottom: 30rpx;
+}

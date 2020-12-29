@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/animation/animation",
+    "pages/region/region",
+    "pages/layout/layout"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "格物",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#8a8a8a",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "安卓",
+        "iconPath": "/assets/anzhuo.png",
+        "selectedIconPath": "/assets/anzhuos.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "苹果",
+        "iconPath": "/assets/iphone.png",
+        "selectedIconPath": "/assets/iphones.png"
+      }
+    ]
+  }
+}

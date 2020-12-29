@@ -1,0 +1,9 @@
+<!--pages/animation/animation.wxml-->
+<button bind:tap="change">展开</button>
+<view class="box" animation="{{animationData}}">
+  <view
+    class="box-item"
+    wx:for="{{5}}"
+    wx:key="index"
+  >{{item}}</view>
+</view>

@@ -1,0 +1,41 @@
+.list-nav {
+  	display: flex;
+}
+
+.list-nav-item {
+	width: 50%;
+	height: 93rpx;
+	border-bottom: 1rpx solid #EEF3FD;
+	text-align: center;
+	line-height: 93rpx;
+	color: #666;
+	background-color: #EEF3FD;
+	transition: all .08s linear;
+}
+
+.list-nav-item.selected {
+	color: #39B0FC;
+	background-color: #fff;
+}
+
+.list-nav-item-title {
+	font-size: 28rpx;
+	font-weight: 400;
+}
+
+.selected .list-nav-item-title {
+	font-size: 32rpx;
+	font-weight: 600;
+}
+
+.list-nav-item-line {
+	display: none;
+	width: 137rpx;
+	height: 4rpx;
+	margin: auto;
+	background-color: #39B0FC;
+}
+
+.selected .list-nav-item-line {
+  display: block;
+}

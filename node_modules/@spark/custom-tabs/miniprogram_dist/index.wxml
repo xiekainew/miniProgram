@@ -1,0 +1,15 @@
+<view class="list-nav">
+	<view
+		wx:for="{{tabs}}"
+		wx:key="{{index}}"
+		class="list-nav-item {{item.isSelected ? 'selected' : ''}} "
+		hover-class="click-hover"
+		bindtap="clickTab"
+		data-index="{{index}}"
+	>
+		<view class="list-nav-item-title">
+			{{item.text}}
+		</view>
+		<view class="list-nav-item-line"></view>
+	</view>
+</view>
